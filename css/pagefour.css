@@ -1,0 +1,108 @@
+*{
+	margin: 0;padding: 0;
+}
+body{
+	background-color: rgba(4,204,187,1);
+}
+.returndiv{
+	margin: 0.5rem;
+	width: 100%;
+}
+.whiteDiv{
+	width: 95%;
+	margin: 0px auto;	
+	text-align: center;
+	padding-bottom: 5.5rem;
+	z-index: 999;
+	position: relative;
+	background-image: url(../img/hujie.png);
+	background-size: 100% 100%;
+}
+.whiteDiv_title{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;	
+	color: #0ACDBC;
+	padding-left: 12%;
+}
+.whiteDiv_title div{
+	margin-left: 0.625rem;
+	font-size: 1.125rem
+}
+.xian{
+	border: 1px solid rgba(4,204,187,0.2);
+	width: 3.125rem;
+	
+}
+.zhenjiDiv{
+	width: 100%;
+	text-align: center;
+}
+.zhenji{
+	font-weight: 600;
+	color: #04CCBB;
+	font-size: 2.1875rem
+}
+.gan{
+	border: 1px solid rgba(4,204,187,0.6);
+	width: 3.75rem;
+	height: 0.1875rem;
+	background-color: #0ACDBC;
+}
+.gans{
+	margin-top: 0.3125rem;
+	margin-left:0.34375rem;
+	border: 1px solid rgba(4,204,187,0.6);
+	width: 3.125rem;
+	height: 0.1875rem;
+}
+.gandiv{
+	width: 20%;
+	margin: -8px auto;
+	text-align: center;
+}
+.tableDiv{
+	margin-top: 2.5rem;
+}
+.headerDiv{
+	width: 86%;
+	margin: 0 auto;
+	padding: 10px 0px;
+	color: white;
+	background-color: #75E3D9;
+}
+.table{
+	width: 86%;
+	margin: 0 auto;
+}
+.trOne td{
+	background-color: rgba(117,227,217,0.5);
+	color:rgba(0,131,120,1);	
+}
+table{
+border-collapse: collapse;
+}
+table,td{
+	padding: 0.625rem 0rem;
+	border: 1px solid rgba(0,0,0,0.1);
+	font-size: 0.625rem;
+}
+.btn{
+   border: 1px solid #04CCBB;	
+   color: #04CCBB;
+   width: 60%;
+   margin-top: 2.5rem;
+}
+.img_div{
+	width: 100%;
+	text-align: center;
+	margin-top: 1.875rem;
+}
+.hujieDiv{
+	position: relative;
+	bottom: 6.875rem;
+}
+.hujieimg{
+	z-index: 2;
+}

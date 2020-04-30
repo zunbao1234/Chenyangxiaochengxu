@@ -1,0 +1,53 @@
+*{
+	margin: 0;padding: 0;
+}
+body{
+	background-color: rgba(4,204,187,1);
+}
+.returndiv{
+	margin: 0.5rem;
+	width: 100%;
+}
+.whiteDiv{
+	background-color: white;
+	width: 95%;
+	margin: 0px auto;
+}
+.tableStyle{
+	font-size: 0.6875rem
+	width:100%;
+}
+table{
+border-collapse: collapse;
+}
+table,td{
+	border: 1px solid rgba(245,245,245,1);
+}
+.trStyle{
+	text-align: center;
+	padding: 0.625rem !important;
+}
+.pickerInput{
+	width: 60%;
+	background-color: rgba(4,34,31,0.14);
+	border: 0px solid transparent;
+}
+.tableStyle tr{
+	text-align: center;
+	
+}
+.labelDiv{
+	background-color: transparent !important;
+	border: 0px solid transparent !important;
+}
+.ziti{
+	font-size: 0.625rem;
+}
+.btnDiv{
+	width: 60%;
+	margin: 0.9375rem auto;
+}
+.btn{
+	border: 1px solid white !important;
+	color: white !important;
+}

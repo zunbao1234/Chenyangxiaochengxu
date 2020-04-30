@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- head 中 -->
+		<link rel="stylesheet" href="https://cdn.bootcss.com/weui/1.1.3/style/weui.min.css">
+		<link rel="stylesheet" href="https://cdn.bootcss.com/jquery-weui/1.2.1/css/jquery-weui.min.css">
+		<link rel="stylesheet" href="css/pagetwo.css" />
+	</head>
+	<body>
+		<header>
+			<div class="returndiv" id="return">
+				<img alt="140*140" src="img/returnicon.png" width="19" height="26" />
+			</div>
+		</header>
+		<div class="bodyDiv">
+			<div class="whiteDiv">
+				<table class="tableStyle" >
+					<tr class="trStyle">
+						<td>志愿栏目</td>
+						<td>公费平行<br/>志愿一</td>
+						<td>公费平行<br/>志愿二</td>
+						<td>公费平行<br/>志愿三</td>
+					</tr>
+					<tr>
+						<td>第一志愿栏</td>
+						<td><input type="text" class="pickerInput"  id="volunteerone"></td>
+						<td><input type="text" class="pickerInput"  id="volunteerone"></td>
+						<td><input type="text" class="pickerInput"  id="volunteerone"></td>
+					</tr>
+					<tr>
+						<td>第二志愿栏</td>
+						<td><input type="text" class="pickerInput"  id="volunteerone"></td>
+						<td><input type="text" class="pickerInput"  id="volunteerone"></td>
+						<td><input type="text" class="pickerInput"  id="volunteerone"></td>
+					</tr>
+					<tr>
+						<td>第三志愿栏</td>
+						<td><input type="text" class="pickerInput"  id="volunteerone"></td>
+						<td><input type="text" class="pickerInput"  id="volunteerone"></td>
+						<td><input type="text" class="pickerInput"  id="volunteerone"></td>
+					</tr>
+				</table>
+			</div>
+			<div class="weui-cells_checkbox labelDiv">
+			  <label class="weui-cell" for="s11">
+			    <div class="weui-cell__hd">
+			      <input type="checkbox" class="weui-check" name="checkbox1" id="s11">
+			      <i class="weui-icon-checked"></i>
+			    </div>
+			    <div class="weui-cell__bd ziti">
+			      <p>是否从志愿调剂（对，表示服从，简易考生选择）</p>
+			    </div>
+			  </label>
+			</div>
+		
+		</div>
+		<div class="weui-footer btnDiv weui-footer_fixed-bottom">
+		  <a href="javascript:;" id="btn" class="weui-btn weui-btn_plain-primary btn">提交我的志愿表</a>
+		</div>
+		<!-- body 最后 -->
+		<script src="https://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
+		<script src="https://cdn.bootcss.com/jquery-weui/1.2.1/js/jquery-weui.min.js"></script>
+		
+		<!-- 如果使用了某些拓展插件还需要额外的JS -->
+		<script src="https://cdn.bootcss.com/jquery-weui/1.2.1/js/swiper.min.js"></script>
+		<script src="https://cdn.bootcss.com/jquery-weui/1.2.1/js/city-picker.min.js"></script>
+		
+		<script>
+		$("#volunteerone").picker({
+		  title: "请选择您的学校",
+		  cols: [
+		    {
+		      textAlign: 'center',
+		      values: ['iPhone 4', 'iPhone 4S', 'iPhone 5', 'iPhone 5S', 'iPhone 6', 'iPhone 6 Plus', 'iPad 2', 'iPad Retina', 'iPad Air', 'iPad mini', 'iPad mini 2', 'iPad mini 3']
+		    }
+		  ]
+		});
+		$(function(){
+			$("#return").click(function(){
+				window.history.back(-1); 
+			})
+			$("#btn").click(function(){
+				location.href="pagefour.html";
+			})
+		})
+		</script>
+	</body>
+</html>
