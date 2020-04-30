@@ -4,6 +4,13 @@
 body{
 	background-color: rgba(4,204,187,1);
 }
+html, body {
+
+    max-width: 100%;
+
+    overflow-x: hidden;
+
+}
 .returndiv{
 	margin: 0.5rem;
 	width: 100%;

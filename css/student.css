@@ -4,6 +4,13 @@ body {
 body::-webkit-scrollbar {
     display: none;
 }
+html, body {
+
+    max-width: 100%;
+
+    overflow-x: hidden;
+
+}
 .returndiv{
 	margin: 0.5rem;
 	width: 100%;
