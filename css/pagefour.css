@@ -98,13 +98,15 @@ table,td{
 .btn{
    border: 1px solid #04CCBB;	
    color: #04CCBB;
-   width: 60%;
+   width: 70%;
+   font-size: 0.9375rem;
    margin-top: 2.5rem;
 }
 .img_div{
 	width: 100%;
 	text-align: center;
 	margin-top: 1.875rem;
+	margin-bottom: 1.25rem;
 }
 .hujieDiv{
 	position: relative;
