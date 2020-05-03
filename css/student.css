@@ -69,11 +69,15 @@ html, body {
 }
 
 .stuname {}
-
+.inputDiv{
+	width: 65%;
+}
 .inputStyle {
 	border: 0px solid transparent;
 	background-color: rgba(246, 245, 248, 1);
 	padding: 0.3125rem;
+	width: 100%;
+	text-align: right;
 }
 
 input::-webkit-outer-spin-button,
