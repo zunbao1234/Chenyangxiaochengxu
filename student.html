@@ -42,32 +42,32 @@
 						<div class="stuname ">
 							<text style="color: red;">*</text>联系方式：
 						</div>
-						<div>
+						<div class="inputDiv">
 							<input type="number" maxlength="11" name="stuPhone" class="inputStyle" />
 						</div>
 					</div>
 					<div class="am-g doc-am-g backDiv space_between">
 						<div class="stuname ">
-							<text style="color: red;">*</text>户籍类型：
+							<text style="color: red;">*</text>请选择户籍：
 						</div>
-						<div>
-							<input type="text" name="houseType" class="inputStyle" />
-						</div>
-					</div>
-					<div class="am-g doc-am-g backDiv space_between">
-						<div class="stuname ">
-							<text style="color: red;">*</text>户籍所在区：
-						</div>
-						<div>
-							<input type="text" name="houseAddress" class="inputStyle" />
+						<div class="inputDiv">
+							<input type="text" readonly="readonly" name="houseType" id="houseTypeId" class="inputStyle" />
 						</div>
 					</div>
 					<div class="am-g doc-am-g backDiv space_between">
 						<div class="stuname ">
-							<text style="color: red;">*</text>初中所在学校：
+							<text style="color: red;">*</text>请选择户籍所在区：
 						</div>
-						<div>
-							<input type="text" name="stuSchool" class="inputStyle" />
+						<div class="inputDiv">
+							<input type="text" readonly="readonly" name="houseAddress" id="houseAddressId" class="inputStyle" />
+						</div>
+					</div>
+					<div class="am-g doc-am-g backDiv space_between">
+						<div class="stuname ">
+							<text style="color: red;">*</text>请选择目前年级：
+						</div>
+						<div class="inputDiv">
+							<input type="text" readonly="readonly" name="stuSchool" id="stuSchoolId" class="inputStyle" />
 						</div>
 					</div>
 				</div>
@@ -160,6 +160,8 @@
 		<!-- body 最后 -->
 		<script src="https://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
 		<script src="https://cdn.bootcss.com/jquery-weui/1.2.1/js/jquery-weui.min.js"></script>
+		
+		<script src="https://res.wx.qq.com/open/libs/weuijs/1.0.0/weui.min.js"></script>
 		<script src="js/bmob-min.js"></script>
 		<script src="js/student.js"></script>
 	</body>

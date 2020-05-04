@@ -70,7 +70,8 @@ html, body {
 
 .stuname {}
 .inputDiv{
-	width: 65%;
+	width: 52%;
+	text-align: right;
 }
 .inputStyle {
 	border: 0px solid transparent;
