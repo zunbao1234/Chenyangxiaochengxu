@@ -132,7 +132,15 @@
 			</div>
 		</form>
 		<div id="loadDiv" style="display: none;" class="weui-toast weui_loading_toast weui-toast--visible"><div class="weui_loading"><i class="weui-loading weui-icon_toast"></i></div><p class="weui-toast_content">数据加载中</p></div>
-		
+		<div class="zhishiDiv" id="zhishiDivId" style="display: none;">
+			<div class="imgDiv">
+				<img src="img/jianto.png" width="350" height="300" />
+			</div>
+			<div class="zhuangfa">转发到朋友圈获取志愿填报结果</div>
+			<div class="aDiv">
+				<a href="javascript:;" onclick="tiao();" class="aBtn">确认</a>
+			</div>
+		</div>
 		<!-- body 最后 -->
 		<script src="https://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
 		<script src="https://cdn.bootcss.com/jquery-weui/1.2.1/js/jquery-weui.min.js"></script>
@@ -141,5 +149,15 @@
     	<script src="https://res.wx.qq.com/open/libs/weuijs/1.0.0/weui.min.js"></script>
 		<script src="js/bmob-min.js"></script>
 		<script src="js/pagetwo.js"></script>
+		<script type="text/javascript">
+			var _div =document.getElementById('zhishiDivId');
+			_div.addEventListener('click',function(e){
+				e.stopPropagation();
+			},false);
+			function tiao(){
+				_div.style.display="none";
+				location.href="pagefour.html"
+			}
+		</script>
 	</body>
 </html>

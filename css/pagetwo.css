@@ -77,3 +77,36 @@ rgba(245,245,245,1)*/
 	margin-top: 1.875rem;
 	margin-bottom: 3.75rem;
 }
+.zhishiDiv{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 0;
+}
+.zhuangfa{
+	position: absolute;
+	bottom:13rem;
+	width: 100%;
+	text-align: center;
+	color: wheat;
+	font-size: 1.25rem;
+}
+.aDiv{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 9rem;
+}
+.aBtn{
+	color: white;
+	padding: 0.5rem  3.75rem;
+	border: 1px solid white;
+	font-size: 0.9375rem;
+}
+.imgDiv{
+	position: absolute;
+	bottom: 15rem;
+	width: 100%;
+	text-align: center;
+}
