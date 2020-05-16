@@ -124,9 +124,27 @@ table,td{
 	top: 0rem;
 	z-index: 999;
 	text-align: center;
-	padding-top: 42%;
+	padding-top: 25%;
 }
 .add{overflow:hidden;}
 .weixinTextStyle{
-	color: white;
+	color: black;
+	font-size: 0.75rem;
+}
+#imgSrc{
+	width: 100%;
+}
+.backZegai{
+	background-color: white;
+	width: 90%;
+	margin: 0 auto;
+	padding: 1.25rem 0.3125rem;
+	border-radius: 0.625rem;
+}
+.inputStyle{
+	border-radius: 0.3125rem;
+	border: 1px solid #cccccc;
+	padding: 5px;
+	width: 80%;
+	text-align: center;
 }

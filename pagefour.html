@@ -8,6 +8,8 @@
 		<!-- head 中 -->
 		<link rel="stylesheet" href="https://cdn.bootcss.com/weui/1.1.3/style/weui.min.css">
 		<link rel="stylesheet" href="https://cdn.bootcss.com/jquery-weui/1.2.1/css/jquery-weui.min.css">
+		
+		
 		<link rel="stylesheet" href="css/pagefour.css" />
 	</head>
 	<body>
@@ -49,14 +51,44 @@
 			<img alt="140*140" src="img/xindongfan.png" width="100" height="40" />
 		</div>
 		<div class="zegaiDiv" style="display: none;">
-			<div class="erweimaDiv">
-				<img alt="140*140" src="img/xingdongfanerweima.jpg" width="350" height="350" onclick="window.open(this.src,'newindow')"/>
+			<div class="backZegai" id="zhishiDivId">
+				<div class="am-g doc-am-g backDiv space_between">
+					<div class="stuname ">
+						<text style="color: red;">*</text>请选择年级：
+					</div>
+					<div class="inputDiv">
+						<input type="text" readonly="readonly" placeholder="--请选择年级--" name="nianji" id="ninajiId" class="inputStyle" />
+					</div>
+				</div>
+				<div style="height: 0.625rem;"></div>
+				<div class="am-g doc-am-g backDiv space_between">
+					<div class="stuname ">
+						<text style="color: red;">*</text>请选择校区：
+					</div>
+					<div class="inputDiv">
+						<input type="text" readonly="readonly" placeholder="--请选择校区--" name="stuSchool" id="stuSchoolId" class="inputStyle" />
+					</div>
+				</div>
+				<div id="erweima" style="display: none;">
+				<div class="erweimaDiv">
+					<img alt="140*140" id="imgSrc"  onclick="window.open(this.src,'newindow')"/>
+				</div>
+				<div class="weixinTextStyle">
+					<text style="color: #04CCBB;">您的选择:</text>
+					<text style="color: orangered;">扫描添加<span id="campusId"></span>老师<span id="greanId"></span></text>
+				</div>
+				<div class="weixinTextStyle">
+					保存并扫描二维码
+				</div>
+				</div>
 			</div>
-			<div class="weixinTextStyle">扫码添加李老师,进行一对一中考志愿填报指导</div>
 		</div>
 		<!-- body 最后 -->
 		<script src="https://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
 		<script src="https://cdn.bootcss.com/jquery-weui/1.2.1/js/jquery-weui.min.js"></script>
+		
+		<script src="https://res.wx.qq.com/open/libs/weuijs/1.0.0/weui.min.js"></script>
+		<script src="js/bmob-min.js"></script>
         <script src="js/pagefour.js"></script>
 	</body>
 </html>
