@@ -124,7 +124,7 @@ table,td{
 	top: 0rem;
 	z-index: 999;
 	text-align: center;
-	padding-top: 25%;
+	padding-top: 23%;
 }
 .add{overflow:hidden;}
 .weixinTextStyle{
@@ -147,4 +147,7 @@ table,td{
 	padding: 5px;
 	width: 80%;
 	text-align: center;
+}
+.erweimaDiv{
+	margin-top: 0.75rem;
 }
