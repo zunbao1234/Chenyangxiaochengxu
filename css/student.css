@@ -81,7 +81,10 @@ html, body {
 	text-align: right;
 }
 #stuSchoolId{
-	width: 80% !important;
+	width: 100% !important;
+}
+#inputDivSchool{
+	width: 52% !important;
 }
 
 input::-webkit-outer-spin-button,
